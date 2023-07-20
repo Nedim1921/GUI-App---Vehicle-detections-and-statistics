@@ -1,0 +1,56 @@
+{
+    "QMainWindow": [
+        {
+			"title": "LoginRegister",
+			"navigation":[
+				{
+					"close": "closeBtn"
+				}
+			]
+        }
+    ],
+    "QSettings": [
+        {
+            "ThemeSettings": [
+                {
+                    "CustomTheme": []
+                }
+            ],
+            "AppSettings": {
+                "OrganizationName": "",
+                "ApplicationName": "",
+                "OrganizationDormain": ""
+            }
+        }
+    ],
+    "QStackedWidget":[
+		{
+			"name":"stackedWidget",
+			"transitionAnimation":[
+				{
+					"fade":[
+						{
+							"active": true,
+							"duration":1000,
+							"easingCurve": "OutBack"
+						}
+					],
+					"slide":[
+						{
+							"active":true,
+							"duration": 1000,
+							"direction": "horizontal",
+							"easingCurve": "OutBack"
+						}
+					]
+				}
+			],
+			"navigation":[
+				{
+					"nextPage":"to_login",
+					"previousPage": "to_register"
+				}
+			]
+		}
+	]
+}
